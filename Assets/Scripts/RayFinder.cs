@@ -16,11 +16,13 @@ public class Ray
 
 public class RayFinder : MonoBehaviour
 {
-    public Ray Reflection(Ray ray)
+    public Vector3 start;
+    public Vector3 end;
+    /*public Ray Reflection(Ray ray)
     {
         // Use raycast hit normal to caculate the reflected ray
         
-    }
+    }*/
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +32,9 @@ public class RayFinder : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetMouseButtonDown(0))
+        {
+            
+        }
     }
 }
